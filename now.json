@@ -1,0 +1,18 @@
+{
+  "name": "esnext-conf",
+  "version": 2,
+  "redirects": [
+    {
+      "source": "/sponsor",
+      "destination": "https://github.com/pikapkg/esnext-conf-2020/blob/master/sponsorships.md"
+    },
+    {
+      "source": "/cfp",
+      "destination": "https://github.com/pikapkg/esnext-conf-2020/blob/master/cfp.md"
+    },
+    {
+      "source": "/code-of-conduct",
+      "destination": "https://github.com/pikapkg/esnext-conf-2020/blob/master/coc.md"
+    }
+  ]
+}

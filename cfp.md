@@ -9,11 +9,9 @@ Thank you for your interest in speaking at ESNEXT CONF 2020. Here are a few impo
 
 Please review the information below before you submit to the CFP.
 
+[Submit Proposal](https://docs.google.com/forms/d/1rQEAhLlRaUNShsH_zUCHAXaZfgHUWyb4Ce-fQgmdap4)
+
 ## Who we are looking for
-
-This CFP is open to both experienced speakers and folks who have never given a big conference talk. The criteria we will use for evaluating submissions will be the same, and no added weight will be awarded to folks just because they've spoken before.
-
-ESNEXT is a global conference. We're looking to give live talks across multiple time zones. When we request that all talk submissions are made in English, If you'd like to give a talk in any other language, please let us know in the submission and we will try our best to accommodate you.
 
 There are a few things we are **NOT** looking for:
 
@@ -42,6 +40,14 @@ Below are a few topics that we think are interesting, and would love to see prop
 - Performance (Bonus if told as a part of another story)
 - Serverless
 
+[Submit Proposal](https://docs.google.com/forms/d/1rQEAhLlRaUNShsH_zUCHAXaZfgHUWyb4Ce-fQgmdap4)
+
+## Should I submit a talk?
+
+Yes! This CFP is open to both experienced speakers and folks who have never given a big conference talk. The criteria we will use for evaluating submissions will be the same, and no added weight will be awarded to folks just because they've spoken before.
+
+ESNEXT is a global conference. We're looking to present live talks across multiple time zones and countries. We request that all talk submissions are made in English, but if you'd like to give your talk in any other language just let us know in the submission and we do our best to accommodate you.
+
 ## Code of conduct
 
 Please review our [Code of Conduct](/coc). Everyone who participates in our conference agrees to the enforcement of our CoC, and includes our friends, speakers, staff, sponsors, and attendees.
@@ -50,16 +56,13 @@ Please review our [Code of Conduct](/coc). Everyone who participates in our conf
 
 If we accept your proposal to speak, the following items are taken care of by us:
 
-- Four free tickets to watch the conference: one for you, and 3 for friends/coworkers.
+- Two free tickets to watch the conference: one for you, and 1 for a friend/coworker.
+- A 50%-off link to tickets that you can share with anyone else!
 - A professional webcam and microphone will be shipped to you before your talk, unless you feel you already have one. We do this because we want you to be able to give the best talk you can give, and we know that your audience will appreciate it.
 - We can also provide a green screen, if you feel comfortable setting it up to record (we'll provide some basic instructions). Don't hesitate to get creative :D
 - A few extra surprises!
 
 Don't worry about shipping anything back after you've given your talk. It's always a good idea to have a nice microphone and camera lying around, and we hope you'll find good use for them in the future.
-
-## How to submit a proposal
-
-First, make sure you're available to attend the conference. It will be held on **MAY 18-22, 2020**.
 
 ### Note for ASL speakers
 
@@ -77,4 +80,4 @@ If you are a new speaker, once your talk has been accepted we will commit to wor
 
 Submissions close on <span class="exclaim">April 3, 2020</span>. We will get back to all speakers as soon as possible. We will email all speakers at roughly the same time, so everyone will hear back on the same day.
 
-<a class="cta" href="https://docs.google.com/forms/d/1rQEAhLlRaUNShsH_zUCHAXaZfgHUWyb4Ce-fQgmdap4">Submit Proposal</a>
+[Submit Proposal](https://docs.google.com/forms/d/1rQEAhLlRaUNShsH_zUCHAXaZfgHUWyb4Ce-fQgmdap4)
