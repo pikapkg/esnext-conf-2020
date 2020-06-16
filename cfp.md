@@ -50,7 +50,7 @@ ESNEXT is a global conference. We're looking to present live talks across multip
 
 ## Code of conduct
 
-Please review our [Code of Conduct](/coc). Everyone who participates in our conference agrees to the enforcement of our CoC, and includes our friends, speakers, staff, sponsors, and attendees.
+Please review our [Code of Conduct](/coc.md). Everyone who participates in our conference agrees to the enforcement of our CoC, and includes our friends, speakers, staff, sponsors, and attendees.
 
 ## What we take care of
 
