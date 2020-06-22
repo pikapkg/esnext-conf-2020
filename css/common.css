@@ -1,0 +1,50 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Titillium Web", sans-serif;
+}
+
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small {
+  display: block;
+  font-size: 0.5em;
+  font-style: italic;
+  font-family: sans-serif;
+}
+
+.button,
+.box {
+  border-radius: 0;
+}
+
+.main-content {
+  background: linear-gradient(#ffff 0%, #f9f9f9cc 10%),
+    url("/img/blue-brushstroke.jpg") top left no-repeat;
+  background-size: cover;
+}
+
+.esnext-logo {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 4em;
+  font-weight: 900;
+  color: #3c397e;
+  letter-spacing: 0.0575em;
+  text-transform: uppercase;
+}
+.esnext-logo:hover {
+  color: #3c397e;
+}
+
+@media screen and (max-width: 1020px) {
+  .button.is-large {
+    font-size: 1.2rem;
+    flex-grow: 1;
+  }
+}

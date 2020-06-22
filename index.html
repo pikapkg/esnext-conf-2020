@@ -25,16 +25,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/bulma.min.css" />
     <link rel="stylesheet" type="text/css" href="/css/showcase.css" />
+    <link rel="stylesheet" href="/css/common.css" />
     <link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/alien-monster_1f47e.png">
     <style>
-video {
-  background: #0c1d45;
-  background: linear-gradient(0, #b371ff 0%, #0c1d45 100%);
-  /* background: linear-gradient(0deg, #c7ffea 0%, #00c988 100%); */
-}
-.button, .box {
-  border-radius: 0;
-}
+    video {
+      background: #0c1d45;
+      background: linear-gradient(0, #b371ff 0%, #0c1d45 100%);
+      /* background: linear-gradient(0deg, #c7ffea 0%, #00c988 100%); */
+    }
     .promo-columns {
        margin: 0 4rem;
     }
@@ -44,9 +42,9 @@ video {
     .tags .tag {
       flex-grow: 1;
       font-style: italic;
-  background: linear-gradient(0, #b371ff 0%, #0c1d45 500%);
-  color: white; 
-  font-weight: bold;
+      background: linear-gradient(0, #b371ff 0%, #0c1d45 500%);
+      color: white;
+      font-weight: bold;
     }
     .promo-box .title {
       font-family: "Titillium Web", sans-serif;
@@ -74,11 +72,11 @@ video {
       line-height: 42px;
       font-size: 24px;
       padding: 0px;
-    font-size: 1.3rem;
-    letter-spacing: 8px;
-    margin-right: -8px;
-    margin-bottom: 4px;
-    font-weight: 500;
+      font-size: 1.3rem;
+      letter-spacing: 8px;
+      margin-right: -8px;
+      margin-bottom: 4px;
+      font-weight: 500;
       text-transform: uppercase;
     }
     .header-logo {
@@ -89,7 +87,7 @@ video {
     }
     .header-
     .work-item {
-          background-size: cover;
+      background-size: cover;
     }
     .buttons-container {
       padding-left: 1rem;
@@ -99,24 +97,23 @@ video {
       position: relative;
     }
     .highlight-container {
-    display: inline-block;
-}
-    .highlight-container:before {
-    content: " ";
-    display: block;
-    height: 90%;
-    width: 100%;
-    margin-left: -3px;
-    margin-right: -3px;
-    position: absolute;
-    background: #45f17a85;
-    transform: rotate(2deg);
-    top: -1px;
-    left: -1px;
-    border-radius: 20% 25% 20% 24%;
-    padding: 10px 3px 3px 10px;
-}
-
+      display: inline-block;
+    }
+    .highlight-container::before {
+      content: " ";
+      display: block;
+      height: 90%;
+      width: 100%;
+      margin-left: -3px;
+      margin-right: -3px;
+      position: absolute;
+      background: #45f17a85;
+      transform: rotate(2deg);
+      top: -1px;
+      left: -1px;
+      border-radius: 20% 25% 20% 24%;
+      padding: 10px 3px 3px 10px;
+    }
     .hero-subtitle {
       text-align: center;
       color: #363636;
@@ -141,70 +138,58 @@ video {
       font-family: "Titillium Web", sans-serif;
       font-size: 2.4rem;
     }
-      #bgvid {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        max-width: initial;
-        z-index: -1;
-      }
-#home {
-  height: 20vw;
-  overflow: hidden;
-}
-#info{
-  font-family: "Titillium Web", sans-serif;
-  font-size: 20vw;
-  font-weight: 900;
-  letter-spacing: 15px;
-  margin: 15px 0px;
-  padding: 0;
-  fill:#000;
-}
-      #masked{
-          mask:url("#maskLayer");
-      }
-      .main-content {
-        background:  linear-gradient(#FFFF 0%, #F9F9F9CC 10%),
-        url('/img/blue-brushstroke.jpg') top left no-repeat;
-            background-size: cover;
-      }
+    #bgvid {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      max-width: initial;
+      z-index: -1;
+    }
+    #home {
+      height: 20vw;
+      overflow: hidden;
+    }
+    #info {
+      font-size: 20vw;
+      margin: 15px 0px;
+      padding: 0;
+      fill:#000;
+    }
+    #masked {
+      mask:url("#maskLayer");
+    }
 
-@media screen and (max-width: 1020px) {
-#home {
-  margin-top: 0.5rem;
-}
-#info{
-  font-size: 24vw;
-  letter-spacing: 2px;
-}
-    .promo-columns {
-       margin: 0;
+    @media screen and (max-width: 1020px) {
+      #home {
+        margin-top: 0.5rem;
+      }
+      #info{
+        font-size: 24vw;
+        letter-spacing: 2px;
+      }
+      .promo-columns {
+        margin: 0;
+      }
+      .promo-columns > .column {
+        margin-top: 0 !important;
+      }
+      .tags {
+        display: none;
+      }
+      .hero-subtitle {
+        font-size: 1.7rem;
+        margin-bottom: 1.5rem;
+        text-align: left;
+      }
+      .hero-bullet {
+        font-size: 2rem;
+      }
+      .bullet-container, .container.hero-container  {
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
     }
-    .promo-columns > .column {
-      margin-top: 0 !important;
-    }
-  .button.is-large {
-        font-size: 1.2rem;
-        flex-grow: 1;
-  }
-  .tags {
-    display: none;
-  }
-  .hero-subtitle {
-    font-size: 1.7rem;
-    margin-bottom: 1.5rem;
-    text-align: left;
-  }
-  .hero-bullet {
-    font-size: 2rem;
-  }
-  .bullet-container, .container.hero-container  {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-}
     </style>
   </head>
 
@@ -218,14 +203,14 @@ video {
         <svg width="100%" height="20vw">
             <mask id="maskLayer">
                 <rect width="100%" height="100%" fill="#fff"></rect>
-                <text x="50%" y="96%" dominant-baseline="bottom" text-anchor="middle" id="info">ESNEXT</text>
+                <text x="50%" y="96%" dominant-baseline="bottom" text-anchor="middle" class="esnext-logo" id="info">ESNEXT</text>
             </mask>
             <rect id="masked" width="100%" height="100%" fill="white"></rect>
         </svg>
         <video src="/video/universe.mp4" id="bgvid" autoplay="" muted="" loop="" playsinline=""></video>
       </section>
     </div>
-    
+
     <div class="main-content">
       <div class="container hero-container is-fluid has-text-centered">
         <h2 class="hero-subtitle">What's next for JavaScript?</h1>
@@ -253,7 +238,6 @@ video {
         <div class="has-text-weight-semibold has-text-centered" style="color: #f14668; font-size: 1.3rem; margin: 0.5rem 0 0; text-decoration: underline;">Early Bird tickets starting as low as $9.99!</span></div>
       <br/>
 
-
       <div class="section my-work" id="my-work">
         <div class="container">
           <h1 class="title has-text-centered section-title">What makes ESNEXT Conf different?</h1>
@@ -265,10 +249,10 @@ video {
                   12 talks, 1 question: What big changes are coming over the next 5 years?
                 </div>
                 <div class="subtitle is-5">
-                  React, Webpack, and the current batch of tools have dominated the JavaScript ecosystem over the last 5+ years. 
+                  React, Webpack, and the current batch of tools have dominated the JavaScript ecosystem over the last 5+ years.
                   Will these same projects lead the next decade of web development as well? Will the web platform of 2025 look the same as it does today?
                 </div>
-                <div class="subtitle is-5"> 
+                <div class="subtitle is-5">
                    This conference will explain and explore the new technologies, platforms, tools, and libraries that are already changing the way we write JavaScript and deploy websites for the decade to come.
                 </div>
               </div>
@@ -294,7 +278,7 @@ video {
                   A remote conference that won't overwhelm you.
                 </div>
                 <div class="subtitle is-5">
-                  Coronavirus has put in-person conference-goers in a tough spot this year. Moving to the web is the right call for public health, but no one has the time (or attention span) to watch days worth of talk videos, back-to-back-to-back. 
+                  Coronavirus has put in-person conference-goers in a tough spot this year. Moving to the web is the right call for public health, but no one has the time (or attention span) to watch days worth of talk videos, back-to-back-to-back.
                 </div>
                 <div class="subtitle is-5">
                   ESNEXT is a new take on the remote conference. We curate for quality over quantity. We spread a smaller number of talks (12) out over a longer period of time (1 week) so that you never have more than a couple of talks to consider each day.
@@ -312,7 +296,7 @@ video {
                   You're working from home. You're washing your hands. You're doing your part. Now lets do more, together!
                 </div>
                 <div class="subtitle is-5">
-                  100% of ticket proceeds will be donated to <a target="_blank" href="https://www.facebook.com/donate/1564752357011737/">support the World Health Organization's global efforts</a> to combat the COVID-19 pandemic. 
+                  100% of ticket proceeds will be donated to <a target="_blank" href="https://www.facebook.com/donate/1564752357011737/">support the World Health Organization's global efforts</a> to combat the COVID-19 pandemic.
                 </div>
                 <div class="subtitle is-5">
                   A ticket to ESNEXT will support efforts to track and understand the spread of the virus; to ensure patients get the care they need and frontline workers get essential supplies and information; and to accelerate efforts to develop vaccines, tests, and treatments.
@@ -381,7 +365,7 @@ video {
           </div>
         </div>
       </div>
-      
+
       <div class="section my-work" id="my-work">
         <div class="container">
           <h2 class="title has-text-centered section-title">Schedule</h1>
