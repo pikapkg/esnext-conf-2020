@@ -22,7 +22,7 @@
     <meta property="twitter:title" content="ESNEXT CONF 2020">
     <meta property="twitter:description" content="July 13-17, 2020 | 5 Days. 12 amazing speakers. 1 fully remote conference exploring the future of JavaScript and the web. All ticket proceeds go to fight COVID-19!">
     <meta property="twitter:image" content="https://www.esnextconf.com/img/social-banner.jpg">
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/bulma.min.css" />
     <link rel="stylesheet" type="text/css" href="/css/showcase.css" />
     <link rel="stylesheet" href="/css/common.css" />
@@ -201,11 +201,11 @@
     <div class="header-wrapper" id="home">
       <section class="hero is-large" style="position: relative; overflow: hidden; background: none;">
         <svg width="100%" height="20vw">
-            <mask id="maskLayer">
-                <rect width="100%" height="100%" fill="#fff"></rect>
-                <text x="50%" y="96%" dominant-baseline="bottom" text-anchor="middle" class="esnext-logo" id="info">ESNEXT</text>
-            </mask>
-            <rect id="masked" width="100%" height="100%" fill="white"></rect>
+          <mask id="maskLayer">
+            <rect width="100%" height="100%" fill="#fff"></rect>
+            <text x="50%" y="96%" dominant-baseline="bottom" text-anchor="middle" class="esnext-logo" id="info">ESNEXT</text>
+          </mask>
+          <rect id="masked" width="100%" height="100%" fill="white"></rect>
         </svg>
         <video src="/video/universe.mp4" id="bgvid" autoplay="" muted="" loop="" playsinline=""></video>
       </section>
@@ -220,7 +220,6 @@
       <br/>
       <div class="container buttons buttons-container has-text-centered" style="justify-content: center;">
         <a class="button is-large has-text-weight-semibold is-danger" target="_blank" href="https://ti.to/esnextconf/2020" >Get Tickets</a>
-        <a class="button is-large has-text-weight-semibold is-danger is-outlined" target="_blank" href="/cfp">Apply to Speak!</a>
       </div>
       <br/>
       <br/>
@@ -233,10 +232,7 @@
       <br/>
       <div class="container buttons buttons-container has-text-centered" style="justify-content: center;">
         <a class="button is-large has-text-weight-semibold is-danger" target="_blank" href="https://ti.to/esnextconf/2020" >Get Tickets</a>
-        <a class="button is-large has-text-weight-semibold is-danger is-outlined" target="_blank" href="/cfp">Apply to Speak!</a>
       </div>
-        <div class="has-text-weight-semibold has-text-centered" style="color: #f14668; font-size: 1.3rem; margin: 0.5rem 0 0; text-decoration: underline;">Early Bird tickets starting as low as $9.99!</span></div>
-      <br/>
 
       <div class="section my-work" id="my-work">
         <div class="container">
@@ -268,10 +264,9 @@
               <div class="box has-text-centered">
                 <img src="/img/spaceship.png" style="height: 128px; margin: 1rem;" />
                 <a class="button is-large is-fullwidth has-text-weight-semibold is-danger" target="_blank" href="https://ti.to/esnextconf/2020">Get Tickets</a>
-        <div class="has-text-weight-semibold has-text-centered" style="color: #f14668; font-size: 1.3rem; margin: 0.5rem 0 0;">Early Bird tickets starting as low as $9.99!</span></div>
               </div>
             </div>
-            <div class="column is-6" style="margin-top: 6rem">
+            <div class="column is-6 mt-6">
               <div class="box promo-box">
                 <video src="https://media.giphy.com/media/NsKhfd7D9EviTFIfYP/giphy.mp4" autoplay muted loop playsinline style="width: 100%;"></video>
                 <div class="title is-4">
@@ -311,56 +306,181 @@
       <div class="section my-work" id="my-work">
         <div class="container">
           <h1 class="title has-text-centered section-title">SPEAKERS</h1>
-          <div class="box has-text-centered">
-          <div
-            class="columns is-multiline"
-            data-aos="fade-in"
-            data-aos-easing="linear"
-          >
-            <div class="column is-2" style="text-align: center">
-              <img src="/img/avatar1.svg" />
+          <div class="columns promo-columns">
+            <div class="column is-4">
+              <div class="box promo-box">
+                <img class="speaker-img" src="/img/douglasbrian.jpg" width="300" height="300" alt="Brian Douglas" />
+                <h2 class="speaker-topic">The path to open source contributions</h2>
+                <p class="speaker-summary">There is a need to use Open Source to stay competitive, but how do I get started? This talk will cover the idea of Open Source onboarding and provide examples of how projects are doing it well and how others are not. Prepare your best note taking app (or pen and paper), as this talk will have quite a few examples of projects in the JavaScript community.</p>
+                <h3 class="speaker-name">Brian Douglas</h3>
+                <div class="speaker-title">Developer Advocate, GitHub</div>
+                <div class="speaker-links">
+                  <a href="https://twitter.com/bdougieYO" target="_blank" rel="noopener nofollow">
+                    <img src="/img/icon-twitter.svg" width="24" height="24" alt="Twitter" />
+                  </a>
+                  <a href="https://github.com/bdougie" target="_blank" rel="noopener nofollow">
+                    <img src="/img/icon-github.svg" width="24" height="24" alt="GitHub" />
+                  </a>
+                </div>
+              </div>
+              <div class="box promo-box">
+                <img class="speaker-img" src="/img/chandranrajasegar.jpg" width="300" height="300" alt="Rajasegar Chandran" />
+                <h2 class="speaker-topic">A Super Tiny Framework Agnostic CSS-in-JS</h2>
+                <p class="speaker-summary">Have you ever wanted to have a Sass-like preprocessing capability for your web apps during runtime rather than having it part of your build process? Is there any solution out there which supports dynamic loading of stylesheets from CSS files out of the box, so you can write your styles in plain vanilla CSS and import them via URL without having to worry about flashes of unstyled content. Have you ever thought about a simple and lean CSS-in-JS solution with zero dependencies?</p>
+                <h3 class="speaker-name">Rajasegar Chandran</h3>
+                <div class="speaker-title">Staff Engineer, Freshworks, Inc.</div>
+                <div class="speaker-links">
+                  <a href="https://twitter.com/rajasegar_c" target="_blank" rel="noopener nofollow">
+                    <img src="/img/icon-twitter.svg" width="24" height="24" alt="Twitter" />
+                  </a>
+                  <a href="https://github.com/rajasegar" target="_blank" rel="noopener nofollow">
+                    <img src="/img/icon-github.svg" width="24" height="24" alt="GitHub" />
+                  </a>
+                </div>
+              </div>
+              <div class="box promo-box">
+                <img class="speaker-img" src="/img/vandammebramus.jpg" width="300" height="300" alt="Bramus Van Damme" />
+                <h2 class="speaker-topic">ESNext: Proposals to look forward to</h2>
+                <p class="speaker-summary">With the yearly ECMAScript releases (ES2015 to ES2019) a lot of things have changed in JavaScript-land. And even more changes are ahead! This talk takes a look at a few of the upcoming ECMAScript features, which will (hopefully) become part of the ECMAScript Language Specification in the near future.</p>
+                <h3 class="speaker-name">Bramus Van Damme</h3>
+                <div class="speaker-title">Developer, Freelance / 3RDS</div>
+                <div class="speaker-links">
+                  <a href="https://twitter.com/bramus" target="_blank" rel="noopener nofollow">
+                    <img src="/img/icon-twitter.svg" width="24" height="24" alt="Twitter" />
+                  </a>
+                  <a href="https://github.com/bramus" target="_blank" rel="noopener nofollow">
+                    <img src="/img/icon-github.svg" width="24" height="24" alt="GitHub" />
+                  </a>
+                </div>
+              </div>
+              <div class="box promo-box">
+                <img class="speaker-img" src="/img/silfvernagelhakan.jpg" width="300" height="300" alt="BHåkan Silfvernage" />
+                <h2 class="speaker-topic">Why you should consider Web Assembly in your next frontend project</h2>
+                <p class="speaker-summary">During the last decades more functionality has been pushed into the client by using the latest JavaScript framework. But what if we could be using native code in the browser in order to run computations faster and reuse backend code in the frontend? Web Assembly can help you achieve this.</p>
+                <h3 class="speaker-name">Håkan Silfvernagel</h3>
+                <div class="speaker-title">Manager: AI and Big Data, Miles AS</div>
+                <div class="speaker-links">
+                  <a href="https://twitter.com/agrevlis" target="_blank" rel="noopener nofollow">
+                    <img src="/img/icon-twitter.svg" width="24" height="24" alt="Twitter" />
+                  </a>
+                </div>
+              </div>
             </div>
-            <div class="column is-2 is-hidden-mobile">
-              <img src="/img/avatar2.svg" />
+            <div class="column is-4 mt-6">
+              <div class="box promo-box">
+                <img class="speaker-img" src="/img/bedfordguy.jpg" width="300" height="300" alt="Naomi Meyer" />
+                <h2 class="speaker-topic">The Hidden Complexities of Import Maps</h2>
+                <p class="speaker-summary">Import maps are awesome but underneath their simple interface hides a huge amount of practical complexity. This talk is a deep dive into some of these problems from maintenance and package conventions to production workflows.</p>
+                <h3 class="speaker-name">Guy Bedford</h3>
+                <div class="speaker-title">Developer, Verve Interactive</div>
+                <div class="speaker-links">
+                  <a href="https://twitter.com/guybedford" target="_blank" rel="noopener nofollow">
+                    <img src="/img/icon-twitter.svg" width="24" height="24" alt="Twitter" />
+                  </a>
+                  <a href="https://github.com/guybedford" target="_blank" rel="noopener nofollow">
+                    <img src="/img/icon-github.svg" width="24" height="24" alt="GitHub" />
+                  </a>
+                </div>
+              </div>
+              <div class="box promo-box">
+                <img class="speaker-img" src="/img/isaksenerik.jpg" width="300" height="300" alt="Erik Isaksen" />
+                <h2 class="speaker-topic">A World without Builds: Extensible ESM Components</h2>
+                <p class="speaker-summary">What if I told you there is a world with no runtime dependencies? This world is one where no one is bound by JavaScript frameworks and NPM is a long forgotten system of control. The platform of the web has long told of this world and the release of the source code from its ”babelified” and ”typescripted” mappers. In this talk we’ll explore how to use modern technologies like ES Modules & Web Components, recent developments and technology in a way that doesn't diminish the webs historical super powers. Follow the white rabbit…</p>
+                <h3 class="speaker-name">Erik Isaksen</h3>
+                <div class="speaker-title">Developer, CARFAX</div>
+                <div class="speaker-links">
+                  <a href="https://twitter.com/eisaksen" target="_blank" rel="noopener nofollow">
+                    <img src="/img/icon-twitter.svg" width="24" height="24" alt="Twitter" />
+                  </a>
+                  <a href="https://github.com/nevraeka" target="_blank" rel="noopener nofollow">
+                    <img src="/img/icon-github.svg" width="24" height="24" alt="GitHub" />
+                  </a>
+                </div>
+              </div>
+              <div class="box promo-box">
+                <img class="speaker-img" src="/img/vorillastheodore.jpg" width="300" height="300" alt="Theodore Vorillas" />
+                <h2 class="speaker-topic">Rise of the robots</h2>
+                <p class="speaker-summary">End-to-end testing has been close to impossible since mobile devices are quite restrictive even for simple use cases. In this talk, you will find out how you can prototype a robot that swipes, pinches and taps using JavaScript.</p>
+                <h3 class="speaker-name">Theodore Vorillas</h3>
+                <div class="speaker-title">Developer, Workable</div>
+                <div class="speaker-links">
+                  <a href="https://twitter.com/vorillaz" target="_blank" rel="noopener nofollow">
+                    <img src="/img/icon-twitter.svg" width="24" height="24" alt="Twitter" />
+                  </a>
+                  <a href="https://github.com/vorillaz" target="_blank" rel="noopener nofollow">
+                    <img src="/img/icon-github.svg" width="24" height="24" alt="GitHub" />
+                  </a>
+                </div>
+              </div>
+              <div class="box promo-box">
+                <img class="speaker-img" src="/img/sciandralorenzo.jpg" width="300" height="300" alt="Lorenzo Sciandra" />
+                <h2 class="speaker-topic">Finding a balance</h2>
+                <p class="speaker-summary">If there is one thing I have always struggled with, it’s finding a balance between being a full time software engineer and being an open source contributor & maintainer… and a human being. In this new status quo where most of us are going fully remote, this balance may be even harder to reach; what’d I’d like to share with you are a few macro concepts and a couple micro actionable(s) that helped me in the last couple years—hoping that they will help you.</p>
+                <h3 class="speaker-name">Lorenzo Sciandra</h3>
+                <div class="speaker-title">Developer, Formidable</div>
+                <div class="speaker-links">
+                  <a href="https://twitter.com/kelset" target="_blank" rel="noopener nofollow">
+                    <img src="/img/icon-twitter.svg" width="24" height="24" alt="Twitter" />
+                  </a>
+                  <a href="https://github.com/kelset" target="_blank" rel="noopener nofollow">
+                    <img src="/img/icon-github.svg" width="24" height="24" alt="GitHub" />
+                  </a>
+                </div>
+              </div>
             </div>
-            <div class="column is-2 is-hidden-mobile">
-              <img src="/img/avatar3.svg" />
-            </div>
-            <div class="column is-2 is-hidden-mobile">
-              <img src="/img/avatar4.svg" />
-            </div>
-            <div class="column is-2 is-hidden-mobile">
-              <img src="/img/avatar5.svg" />
-            </div>
-            <div class="column is-2 is-hidden-mobile">
-              <img src="/img/avatar6.svg" />
-            </div>
-          </div>
-            <div class="title is-4">Our Call for Speakers is now closed.</div>
-            <div class="subtitle is-5">What do you think the JavaScript ecosystem will look like in 5 years? We <em>really</em> want to hear from you!</div>
-            <a class="button is-medium has-text-weight-semibold is-danger" target="_blank" href="/cfp">Apply to Speak</a>
-            <a class="button is-medium has-text-weight-semibold is-danger is-outlined" target="_blank" href="/cfp">Learn more...</a>
-            <br>
-            <br>
-            <div class="heading subtitle is-6 is-hidden-mobile" style="margin-bottom: 0;">We'd love to learn about the future of...</div>
-            <div class="tags are-medium">
-              <div class="tag">Serverless</div>
-              <div class="tag">JAMStack</div>
-              <div class="tag">ESM</div>
-              <div class="tag">WASM</div>
-              <div class="tag">Deno</div>
-              <div class="tag">Unbundled development</div>
-              <div class="tag">Build-free development</div>
-              <div class="tag">The web platform</div>
-              <div class="tag">The death of IE11</div>
-              <div class="tag">The birth of HTTP/3</div>
-              <div class="tag">The Decentralized Web (IPFS, dat, etc)</div>
-              <div class="tag">Machine Learning</div>
-              <div class="tag">The future of work (remote or otherwise)</div>
-              <div class="tag">Building inclusive communities</div>
-              <div class="tag">Going beyond screens (e.g. AR/VR, voice interfaces)</div>
-              <div class="tag">Developer Ethics</div>
-              <div class="tag">Security, Privacy and Trust</div>
+            <div class="column is-4 mt-4">
+              <div class="box promo-box">
+                <img class="speaker-img" src="/img/meyernaomi.jpg" width="300" height="300" alt="Naomi Meyer" />
+                <h2 class="speaker-topic">Data Visualization and Internationalization</h2>
+                <p class="speaker-summary">Building custom data visualizations with full international support is not always easy. Let's go over useful techniques to customize data visualizations for a global audience. How to format numbers, dates, times, currencies, calendars, x/y axis, and more! We'll talk about the JavaScript Intl API and unique challenges with right to left and bi-directional locale visualizations, how colors, iconography, and emojis can be perceived differently in distinct cultures, all with a global audience in mind.</p>
+                <h3 class="speaker-name">Naomi Meyer</h3>
+                <div class="speaker-title">Developer, Adobe</div>
+                <div class="speaker-links">
+                  <a href="https://twitter.com/nae_ohmi" target="_blank" rel="noopener nofollow">
+                    <img src="/img/icon-twitter.svg" width="24" height="24" alt="Twitter" />
+                  </a>
+                  <a href="https://github.com/naeohmi" target="_blank" rel="noopener nofollow">
+                    <img src="/img/icon-github.svg" width="24" height="24" alt="GitHub" />
+                  </a>
+                </div>
+              </div>
+              <div class="box promo-box">
+                <img class="speaker-img" src="/img/jacobsonkyle.jpg" width="300" height="300" alt="Kyle Jacobson" />
+                <h2 class="speaker-topic">The Web We Left Behind</h2>
+                <p class="speaker-summary">Before ”SSR” was a term, everything was SSR. And a lot of things on the web just worked, because the browser (and screen readers) knew what to do with links and forms and semantic HTML. We can have that web back. We don't have to ship loads of transpiled, minified, uglified, source-mapped JS to replicate core browser functionality. Is what’s next for JavaScript… less (client-side) JavaScript?</p>
+                <h3 class="speaker-name">Kyle Jacobson</h3>
+                <div class="speaker-title">Developer</div>
+              </div>
+              <div class="box promo-box">
+                <img class="speaker-img" src="/img/zencassio.jpg" width="300" height="300" alt="Cássio Zen" />
+                <h2 class="speaker-topic">Coming of Types</h2>
+                <p class="speaker-summary">Gradual type systems are on the rise. TypeScript, for instance, was released 8 years ago and went from “tech people heard of” to a popular and wanted language. This trend will keep growing over the next years. This presentation will show why adding types might be a good idea, and how they help you—not only by finding errors early but by enabling you to build intelligence around your codebase (and have your editor make suggestions and validate business logic in your code as you type).</p>
+                <h3 class="speaker-name">Cássio Zen</h3>
+                <div class="speaker-title">Developer, Microsoft</div>
+                <div class="speaker-links">
+                  <a href="https://twitter.com/cassiozen" target="_blank" rel="noopener nofollow">
+                    <img src="/img/icon-twitter.svg" width="24" height="24" alt="Twitter" />
+                  </a>
+                  <a href="https://github.com/cassiozen" target="_blank" rel="noopener nofollow">
+                    <img src="/img/icon-github.svg" width="24" height="24" alt="GitHub" />
+                  </a>
+                </div>
+              </div>
+              <div class="box promo-box">
+                <img class="speaker-img" src="/img/biscardichris.jpg" width="300" height="300" alt="Chris Biscardi" />
+                <h2 class="speaker-topic">Unbundling the JAMStack meta-framework</h2>
+                <p class="speaker-summary">Create React App, Gatsby, Next, and Redwood are all in on Webpack. What if we remove Webpack? What does it look like to build a meta-framework that defaults to unbundled and targets ES Modules in the browser?</p>
+                <h3 class="speaker-name">Chris Biscardi</h3>
+                <div class="speaker-title">Developer</div>
+                <div class="speaker-links">
+                  <a href="https://twitter.com/chrisbiscardi" target="_blank" rel="noopener nofollow">
+                    <img src="/img/icon-twitter.svg" width="24" height="24" alt="Twitter" />
+                  </a>
+                  <a href="https://github.com/christopherbiscardi" target="_blank" rel="noopener nofollow">
+                    <img src="/img/icon-github.svg" width="24" height="24" alt="GitHub" />
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -369,9 +489,32 @@
       <div class="section my-work" id="my-work">
         <div class="container">
           <h2 class="title has-text-centered section-title">Schedule</h1>
-          <div class="box has-text-centered">
-            <div class="title is-4">TBA</div>
-            <div class="subtitle is-5">ESNEXT is a global conference, and we plan to stream talks all week across every timezone. Check back in June for our full, posted schedule.</div>
+          <h3 class="title is-size-4 has-text-centered">July 13–17, 2020</h3>
+          <div class="box">
+            <p>A global conference needs to be global, right? To be friendly to as many people as possible, we’re offering <strong>2 showing times</strong> for every content block. Watch one, or both, depending on your location! Each content block will be about 2 hours.</p>
+            <hr />
+            <div class="schedule columns mt-4">
+              <div class="schedule-day column is-3">
+                <h4 class="schedule-slot">Talks 1–3</h4>
+                <div class="schedule-time">Mon, 13 Jul, 1:00p EDT (🇺🇸🇨🇦🇲🇽🇧🇷)</div>
+                <div class="schedule-time">Tue, 14 Jul, 10:00a CEST (🇬🇧🇪🇸🇩🇪🇳🇴🇬🇷🇮🇳)</div>
+              </div>
+              <div class="schedule-day column is-3">
+                <h4 class="schedule-slot">Talks 4–6</h4>
+                <div class="schedule-time">Tue, 14 Jul, 1:00p EDT (🇺🇸🇨🇦🇲🇽🇧🇷)</div>
+                <div class="schedule-time">Wed, 15 Jul, 10:00a CEST (🇬🇧🇪🇸🇩🇪🇳🇴🇬🇷🇮🇳)</div>
+              </div>
+              <div class="schedule-day column is-3">
+                <h4 class="schedule-slot">Talks 7—9</h4>
+                <div class="schedule-time">Wed, 15 Jul, 1:00p EDT (🇺🇸🇨🇦🇲🇽🇧🇷)</div>
+                <div class="schedule-time">Thu, 16 Jul, 10:00a CEST (🇬🇧🇪🇸🇩🇪🇳🇴🇬🇷🇮🇳)</div>
+              </div>
+              <div class="schedule-day column is-3">
+                <h4 class="schedule-slot">Talks 10—12</h4>
+                <div class="schedule-time">Thu, 16 Jul, 1:00p EDT (🇺🇸🇨🇦🇲🇽🇧🇷)</div>
+                <div class="schedule-time">Fri, 17 Jul, 10:00a CEST (🇬🇧🇪🇸🇩🇪🇳🇴🇬🇷🇮🇳)</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -394,7 +537,7 @@
         <div class="container">
           <h2 class="title has-text-centered section-title">Code of Conduct</h1>
           <div class="box has-text-centered">
-            <div class="subtitle is-5">We expect -- and require -- all organizers, sponsors, speakers, volunteers, delegates, and attendees of all levels to adhere to our <a target="_blank" href="/code-of-conduct">Code of Conduct.</a></div>
+            <div class="subtitle is-5">We expect–and require–all organizers, sponsors, speakers, volunteers, delegates, and attendees of all levels to adhere to our <a target="_blank" href="/code-of-conduct">Code&nbsp;of&nbsp;Conduct.</a></div>
           </div>
         </div>
       </div>
