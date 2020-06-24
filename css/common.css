@@ -1,3 +1,5 @@
+/* Base */
+
 h1,
 h2,
 h3,
@@ -5,6 +7,7 @@ h4,
 h5,
 h6 {
   font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
 }
 
 h1 small,
@@ -19,6 +22,12 @@ h6 small {
   font-family: sans-serif;
 }
 
+a svg {
+  fill: currentColor;
+}
+
+/* Elements */
+
 .button,
 .box {
   border-radius: 0;
@@ -26,8 +35,9 @@ h6 small {
 
 .main-content {
   background: linear-gradient(#ffff 0%, #f9f9f9cc 10%),
-    url("/img/blue-brushstroke.jpg") top left no-repeat;
+    url("/img/blue-brushstroke-sm.png") top left no-repeat;
   background-size: cover;
+  image-rendering: crisp-edges;
 }
 
 .esnext-logo {
@@ -47,4 +57,59 @@ h6 small {
     font-size: 1.2rem;
     flex-grow: 1;
   }
+}
+
+.speaker-name {
+  margin: 1rem 0 0;
+  font-size: 20px;
+  line-height: 1;
+  text-align: center;
+}
+
+.speaker-img {
+  width: 100%;
+  height: auto;
+  max-height: 12rem;
+  object-fit: cover;
+}
+
+.speaker-topic {
+  color: #f2426a;
+  line-height: 1;
+  font-size: 24px;
+  margin: 0.5rem 0;
+}
+
+.speaker-bio,
+.speaker-summary {
+  margin-top: 1rem 0;
+  font-size: 14px;
+}
+
+.speaker-title {
+  font-family: "Titillium Web";
+  font-weight: 400;
+  text-align: center;
+}
+
+.speaker-profession::after {
+  content: ", ";
+}
+
+.speaker-links {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.speaker-links a {
+  margin: 0 0.25rem;
+}
+
+.schedule-slot {
+  font-size: 20px;
+}
+
+.schedule-time {
+  font-size: 14px;
+  margin: 1rem 0;
 }
