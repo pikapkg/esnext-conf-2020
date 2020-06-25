@@ -104,6 +104,10 @@ a svg {
 .speaker-links a {
   margin: 0 0.25rem;
 }
+.speaker-links a .flag-emoji {
+  font-size: 30px;
+  line-height: 30px;
+}
 
 .schedule-slot {
   font-size: 20px;
